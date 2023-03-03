@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <title>Day Planner & Agenda</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+      </div>
+    <div class="container">
+        <form>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="init">Hora de inicio:</label>
+            <input type="time" id="init" name="init" required>
+            <label for="finish">Hora de finalización:</label>
+            <input type="time" id="finish" name="finish" required>
+            <button type="submit">Agregar tarea</button>
+        </form>
+        <div id="tasks">
+            <h2>Tareas:</h2>
+            <ul>
+            </ul>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+
+</html>
